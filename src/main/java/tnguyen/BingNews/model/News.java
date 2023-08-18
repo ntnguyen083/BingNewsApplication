@@ -1,29 +1,33 @@
 package tnguyen.BingNews.model;
 
 import javax.xml.crypto.Data;
+import java.sql.Date;
 import java.sql.Timestamp;
 
 public class News extends AdArticle{
     private String categoryID;
-    private Data publishDate;
+    private Date publishDate;
     private Timestamp publishAt;
     private int like;
     private int dislike;
 
-    public News(String imgURL, String title, String sourceURL, String categoryID, Data publishDate, Timestamp publishAt, int like, int dislike) {
+    private Chanel chanel;
+
+    public News(String imgURL, String title, String sourceURL, String categoryID, Date publishDate, Timestamp publishAt, int like, int dislike, Chanel chanel) {
         super(imgURL, title, sourceURL);
         this.categoryID = categoryID;
         this.publishDate = publishDate;
         this.publishAt = publishAt;
         this.like = like;
         this.dislike = dislike;
+        this.chanel = chanel;
     }
 
     public String getCategoryID() {
         return categoryID;
     }
 
-    public Data getPublishDate() {
+    public Date getPublishDate() {
         return publishDate;
     }
 

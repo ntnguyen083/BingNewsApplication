@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface AdArticleRepository {
     List<AdArticle> getAllAdArticle();
-    AdArticle getAdArticleById(int adArticleId);
+    AdArticle getAdArticleById(String adArticleId);
     void insertAdArticle(AdArticle adArticle);
-    void updateAdArticle(AdArticle adArticle);
-    void deleteAdArticle(int adArticleId);
+    void updateAdArticle(String imgURL, String title, String sourceURL, String adArticleId);
+    void deleteAdArticle(String adArticleId);
 }

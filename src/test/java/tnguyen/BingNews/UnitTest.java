@@ -12,8 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class UnitTest {
     @Test
-    public void testGetListAdArticle()
-    {
+    public void testGetListAdArticle() {
         // Create an instance of the repository
         AdArticleRepository adArticleRepository = new JDBCAdArticleRepository();
 
@@ -22,9 +21,9 @@ public class UnitTest {
 
         assertEquals(1, adArticleList.size());
     }
+
     @Test
-    public void testInsertAdArticle()
-    {
+    public void testInsertAdArticle() {
         // Create an instance of the repository
         AdArticleRepository adArticleRepository = new JDBCAdArticleRepository();
 
@@ -43,9 +42,52 @@ public class UnitTest {
         assertEquals(1, adArticleList.size());
     }
 
-    public void testUpdateArticle()
-    {
+    @Test
+    public void testGetAdArticleByID() {
+        // Create an instance of the repository
+        AdArticleRepository adArticleRepository = new JDBCAdArticleRepository();
 
+        String userIdToRetrieve = "58de5bff-956c-48f3-a01e-cf0da4b94fb3"; // Set the ID of the article you want to retrieve
+
+        // Get the user from the database by ID
+        AdArticle retrievedUser = adArticleRepository.getAdArticleById(userIdToRetrieve);
+
+        assertEquals(userIdToRetrieve, retrievedUser.getID());
+    }
+
+    @Test
+    public void testUpdateArticle() {
+        // Create an instance of the repository
+        AdArticleRepository adArticleRepository = new JDBCAdArticleRepository();
+
+        // Select AdArticle want to update
+        String selectAdArticle = "58de5bff-956c-48f3-a01e-cf0da4b94fb3";
+
+        // Create data want to update
+        String imgURL = "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAHghMa?w=300&h=157&q=60&m=6&f=jpg&u=t";
+        String title = "Quang cảnh các thành phố trên khắp thế giới";
+        String sourceURL = "https://www.msn.com/vi-vn/lifestyle/travel/nh%E1%BB%AFng-c%E1%BA%A3nh-quan-thi%C3%AAn-nhi%C3%AAn-di%E1%BB%85m-l%E1%BB%87/ss-AAL4HVj?ocid=msedgdhp&pc=U531&cvid=03a29467d21643b78cbb204bf8acd345&ei=17";
+
+        // Update the user in the database
+        adArticleRepository.updateAdArticle(imgURL, title, sourceURL, selectAdArticle);
+
+        AdArticle retrievedUser = adArticleRepository.getAdArticleById(selectAdArticle);
+        assertEquals(title, retrievedUser.getTitle());
+    }
+
+    @Test
+    public void testDeleteArticle()
+    {
+        // Create an instance of the repository
+        AdArticleRepository adArticleRepository = new JDBCAdArticleRepository();
+
+        String selectAdArticle = "2984b317-4f86-435b-8f21-8fc9f92b4932"; // Set the ID of the user you want to delete
+
+        // Delete the user from the database
+        adArticleRepository.deleteAdArticle(selectAdArticle);
+
+        List<AdArticle> adArticleList = adArticleRepository.getAllAdArticle();
+        assertEquals(0, adArticleList.size());
     }
 
 }

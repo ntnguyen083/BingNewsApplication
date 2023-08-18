@@ -41,8 +41,28 @@ public class JDBCAdArticleRepository implements AdArticleRepository {
     }
 
     @Override
-    public AdArticle getAdArticleById(int adArticleId) {
-        return null;
+    public AdArticle getAdArticleById(String adArticleId) {
+        AdArticle adArticle = new AdArticle();
+        try (Connection connection = ConnectionManager.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_USER_BY_ID)) {
+
+            // Set the parameter for the prepared statement
+            preparedStatement.setString(1, adArticleId);
+
+            // Execute the query
+            try (ResultSet resultSet = preparedStatement.executeQuery()) {
+                if (resultSet.next()) {
+                    adArticle.setID(resultSet.getString("id"));
+                    adArticle.setImgURL(resultSet.getString("imgURL"));
+                    adArticle.setTitle(resultSet.getString("title"));
+                    adArticle.setSourceURL(resultSet.getString("sourceURL"));
+                }
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return adArticle;
     }
 
     @Override
@@ -63,14 +83,50 @@ public class JDBCAdArticleRepository implements AdArticleRepository {
     }
 
     @Override
-    public void updateAdArticle(AdArticle adArticle) {
+    public void updateAdArticle(String imgURL, String title, String sourceURL, String ID) {
+        try (Connection connection = ConnectionManager.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(UPDATE_USER)) {
 
+            // Set the parameters for the prepared statement
+            preparedStatement.setString(1, imgURL);
+            preparedStatement.setString(2, title);
+            preparedStatement.setString(3, sourceURL);
+            preparedStatement.setString(4, ID);
+
+            // Execute the update statement
+            int rowsUpdated = preparedStatement.executeUpdate();
+
+            if (rowsUpdated > 0) {
+                System.out.println("AdArticle with ID " + ID + " updated successfully.");
+            } else {
+                System.out.println("No AdArticle with ID " + ID + " found for update.");
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
-    public void deleteAdArticle(int adArticleId) {
+    public void deleteAdArticle(String adArticleId) {
+        try (Connection connection = ConnectionManager.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(DELETE_USER)) {
 
+            // Set the parameter for the prepared statement
+            preparedStatement.setString(1, adArticleId);
+
+            // Execute the delete statement
+            int rowsDeleted = preparedStatement.executeUpdate();
+
+            if (rowsDeleted > 0) {
+                System.out.println("User with ID " + adArticleId + " deleted successfully.");
+            } else {
+                System.out.println("No user with ID " + adArticleId + " found for deletion.");
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
-    // Implement other methods...
 }
