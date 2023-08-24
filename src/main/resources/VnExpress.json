@@ -1,0 +1,618 @@
+{
+  "rss": {
+    "channel": {
+      "title": "Thời sự - VnExpress RSS",
+      "description": "VnExpress RSS",
+      "image": {
+        "url": "https://s.vnecdn.net/vnexpress/i/v20/logos/vne_logo_rss.png",
+        "title": "Tin nhanh VnExpress - Đọc báo, tin tức online 24h",
+        "link": "https://vnexpress.net"
+      },
+      "pubDate": "Thu, 24 Aug 2023 09:06:24 +0700",
+      "generator": "VnExpress",
+      "link": "https://vnexpress.net/rss/thoi-su.rss",
+      "item": [
+        {
+          "title": "Sống thấp thỏm trong nhà nứt toác ở Sài Gòn",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/song-thap-thom-trong-nha-nut-toac-o-sai-gon-4644828.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/img-2371-jpg-1692755503-1692755615-1692756663.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=7NLhfMKD7j5xzwW5vf4nKw\" ></a></br>Nền nhà sụp lún, tường nứt toác, nguy cơ sập do rung chấn khi thi công bờ kè khiến nhiều hộ dân ở quận 8 sống trong bất an. "
+          },
+          "pubDate": "Thu, 24 Aug 2023 06:00:00 +0700",
+          "link": "https://vnexpress.net/song-thap-thom-trong-nha-nut-toac-o-sai-gon-4644828.html",
+          "guid": "https://vnexpress.net/song-thap-thom-trong-nha-nut-toac-o-sai-gon-4644828.html",
+          "comments": 0
+        },
+        {
+          "title": "Lễ hội lớn nhất của người theo tín ngưỡng thờ Mẫu Tam phủ",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/le-hoi-lon-nhat-cua-nguoi-theo-tin-nguong-tho-mau-tam-phu-4645040.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/11-1692763145-1692792156.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=6PSlwDXqmkj_VxPj2j8cMw\" ></a></br>Người dân hoá thân thành tiên cô, ngồi lên thuyền rồng tham dự lễ hội điện Huệ Nam bên dòng sông Hương. "
+          },
+          "pubDate": "Thu, 24 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/le-hoi-lon-nhat-cua-nguoi-theo-tin-nguong-tho-mau-tam-phu-4645040.html",
+          "guid": "https://vnexpress.net/le-hoi-lon-nhat-cua-nguoi-theo-tin-nguong-tho-mau-tam-phu-4645040.html",
+          "comments": 0
+        },
+        {
+          "title": "Nửa đêm soi đèn bắt còng",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/nua-dem-soi-den-bat-cong-4644827.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/1-1692713809-3434-1692757900.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=-CDQwzA4Eeb2davPs0uZXw\" ></a></br>Buổi tối, người dân xã ven biển ở huyện Quảng Điền, TP Huế mang đèn pin đi bắt còng về làm thức ăn hoặc bán cho các quán nhậu. "
+          },
+          "pubDate": "Thu, 24 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/nua-dem-soi-den-bat-cong-4644827.html",
+          "guid": "https://vnexpress.net/nua-dem-soi-den-bat-cong-4644827.html",
+          "comments": 0
+        },
+        {
+          "title": "Quái xế tông cảnh sát giao thông bị thương",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/quai-xe-tong-canh-sat-giao-thong-bi-thuong-4645254.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/370544071-2590816497723569-472-7885-3996-1692807278.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=bDr2A1wrMqA9-S8hrBMgmQ\" ></a></br>Nam thanh niên phi xe máy vượt đèn đỏ, tông bị thương đại úy Đào Văn Thuân, Đội CSGT Công an TP Thanh Hóa đang điều tiết giao thông. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 23:22:28 +0700",
+          "link": "https://vnexpress.net/quai-xe-tong-canh-sat-giao-thong-bi-thuong-4645254.html",
+          "guid": "https://vnexpress.net/quai-xe-tong-canh-sat-giao-thong-bi-thuong-4645254.html",
+          "comments": 0
+        },
+        {
+          "title": "Vietnam Airlines được trả thêm lương cho phi công Việt",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/vietnam-airlines-duoc-tra-them-luong-cho-phi-cong-viet-4645260.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/phicong-7003-1570599314-169280-8582-3347-1692802866.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5WRqypOrbmweXNDiz_Tpvg\" ></a></br>Chính phủ quy định phi công Việt Nam được trả thêm lương nếu mức hiện tại thấp hơn phi công nước ngoài cùng làm việc cho Vietnam Airlines. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 22:49:51 +0700",
+          "link": "https://vnexpress.net/vietnam-airlines-duoc-tra-them-luong-cho-phi-cong-viet-4645260.html",
+          "guid": "https://vnexpress.net/vietnam-airlines-duoc-tra-them-luong-cho-phi-cong-viet-4645260.html",
+          "comments": 0
+        },
+        {
+          "title": "Cấm ôtô qua cầu Thăng Long ba đêm",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/cam-oto-qua-cau-thang-long-ba-dem-4645258.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/cauthanglong-1692799089-2930-1692799206.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=qdeM9Oxi5fiR_5VKfX3Ylg\" ></a></br>Từ 0 đến 4h ngày 26-28/8, các xe bị cấm chạy trên tầng 2 cầu Thăng Long để kiểm định, thử tải; tàu hỏa, xe máy đi bình thường ở tầng 1. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 22:35:45 +0700",
+          "link": "https://vnexpress.net/cam-oto-qua-cau-thang-long-ba-dem-4645258.html",
+          "guid": "https://vnexpress.net/cam-oto-qua-cau-thang-long-ba-dem-4645258.html",
+          "comments": 0
+        },
+        {
+          "title": "Dấu ấn Phó thủ tướng Lê Văn Thành ở thành phố cảng Hải Phòng",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/dau-an-pho-thu-tuong-le-van-thanh-o-thanh-pho-cang-hai-phong-4644744.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/ptt1-2-ffpf-3-1692749809-16927-6866-4985-1692786512.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Xvfj0FyrR0Gg2-Faim_mfQ\" ></a></br>Trong 7 năm giữ cương vị Chủ tịch, Bí thư Hải Phòng, ông Lê Văn Thành đã \"đánh thức thành phố sau cơn ngủ say\", trở thành trung tâm công nghiệp lớn của cả nước. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 17:29:03 +0700",
+          "link": "https://vnexpress.net/dau-an-pho-thu-tuong-le-van-thanh-o-thanh-pho-cang-hai-phong-4644744.html",
+          "guid": "https://vnexpress.net/dau-an-pho-thu-tuong-le-van-thanh-o-thanh-pho-cang-hai-phong-4644744.html",
+          "comments": 0
+        },
+        {
+          "title": "Hai nhà ga sân bay hơn 45.000 tỷ đồng sẽ khởi công ngày 31/8",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/hai-nha-ga-san-bay-hon-45-000-ty-dong-se-khoi-cong-ngay-31-8-4645086.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/LT133841688221924-1692772534-9435-1692772992.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=gc-RCfFY44k5aUU1v5otKg\" ></a></br>Nhà ga sân bay Long Thành và nhà ga T3 Tân Sơn Nhất tổng mức đầu tư hơn 45.000 tỷ đồng dự kiến được khởi công vào ngày 31/8. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 14:44:36 +0700",
+          "link": "https://vnexpress.net/hai-nha-ga-san-bay-hon-45-000-ty-dong-se-khoi-cong-ngay-31-8-4645086.html",
+          "guid": "https://vnexpress.net/hai-nha-ga-san-bay-hon-45-000-ty-dong-se-khoi-cong-ngay-31-8-4645086.html",
+          "comments": 0
+        },
+        {
+          "title": "Lãnh đạo phường bị kỷ luật vì để 'cưỡng chế nhầm nhà'",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/lanh-dao-phuong-bi-ky-luat-vi-de-cuong-che-nham-nha-4645083.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/cuong-cha-nham-nha-9088-169277-4373-2265-1692775826.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=bds1YLdr_sToBdjD0XI7XA\" ></a></br>Chủ tịch và phó chủ tịch UBND phường 5, TP Cà Mau, vừa bị khiển trách do để sai sót liên quan cưỡng chế nhầm nhà người dân cách đây 5 tháng. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 14:30:59 +0700",
+          "link": "https://vnexpress.net/lanh-dao-phuong-bi-ky-luat-vi-de-cuong-che-nham-nha-4645083.html",
+          "guid": "https://vnexpress.net/lanh-dao-phuong-bi-ky-luat-vi-de-cuong-che-nham-nha-4645083.html",
+          "comments": 0
+        },
+        {
+          "title": "Tặng tranh Chủ tịch Hồ Chí Minh viết Tuyên ngôn độc lập cho bảo tàng",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/tang-tranh-chu-tich-ho-chi-minh-viet-tuyen-ngon-doc-lap-cho-bao-tang-4645052.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/sha-9533-jpg-1692765064-169276-7346-1912-1692780019.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=OIcZPBDHj0oIxfMRGmf06g\" ></a></br>Bức tranh \"Bác Hồ viết Tuyên ngôn độc lập\" cùng hai hiện vật khác của họa sĩ Văn Giáo được tặng lại Bảo tàng Hồ Chí Minh, sáng 23/8. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 14:12:26 +0700",
+          "link": "https://vnexpress.net/tang-tranh-chu-tich-ho-chi-minh-viet-tuyen-ngon-doc-lap-cho-bao-tang-4645052.html",
+          "guid": "https://vnexpress.net/tang-tranh-chu-tich-ho-chi-minh-viet-tuyen-ngon-doc-lap-cho-bao-tang-4645052.html",
+          "comments": 0
+        },
+        {
+          "title": "Cháy tàu cá chứa 1.000 lít dầu",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/chay-tau-ca-chua-1-000-lit-dau-4645053.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/z4628318821431-f164186a62a90d1-3087-5413-1692763873.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=EnbTuKXhhQn-f5JmHyOdMw\" ></a></br>Tàu cá chứa 1.000 lít dầu đang neo đậu ở Vàm Bà Lịch, xã Vĩnh Hòa Phú, huyện Châu Thành bốc cháy dữ dội, thiệt hại khoảng 3 tỷ đồng, sáng 23/8. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 11:32:26 +0700",
+          "link": "https://vnexpress.net/chay-tau-ca-chua-1-000-lit-dau-4645053.html",
+          "guid": "https://vnexpress.net/chay-tau-ca-chua-1-000-lit-dau-4645053.html",
+          "comments": 0
+        },
+        {
+          "title": "Pouyuen sẽ giảm hơn 1.200 công nhân",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/pouyuen-se-giam-hon-1-200-cong-nhan-4645020.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/mg-4093-5711-1692761618-169276-7878-2235-1692763934.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=sa9z40kteM5G8Df9UBjW5w\" ></a></br>Khó khăn đơn hàng, doanh nghiệp đông lao động nhất TP HCM là Pouyuen lần thứ ba trong năm giảm công nhân với số lượng hơn 1.200 người. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 11:15:24 +0700",
+          "link": "https://vnexpress.net/pouyuen-se-giam-hon-1-200-cong-nhan-4645020.html",
+          "guid": "https://vnexpress.net/pouyuen-se-giam-hon-1-200-cong-nhan-4645020.html",
+          "comments": 0
+        },
+        {
+          "title": "Quảng Ngãi cho doanh nghiệp bán cát nhiễm mặn sau nạo vét",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/quang-ngai-cho-doanh-nghiep-ban-cat-nhiem-man-sau-nao-vet-4644951.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/KhuKinhtDungQut-1692756982-3636-1692757480.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=29WBVvhIhIgCinj43fNUtQ\" ></a></br>Thay vì đổ xuống biển Dung Quất, chính quyền Quảng Ngãi cho phép chủ đầu tư bán 900.000 m3 bùn cát nhiễm mặn sau nạo vét để tận dụng khoáng sản. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 10:46:50 +0700",
+          "link": "https://vnexpress.net/quang-ngai-cho-doanh-nghiep-ban-cat-nhiem-man-sau-nao-vet-4644951.html",
+          "guid": "https://vnexpress.net/quang-ngai-cho-doanh-nghiep-ban-cat-nhiem-man-sau-nao-vet-4644951.html",
+          "comments": 0
+        },
+        {
+          "title": "Cấm xe tải nặng qua cầu Rạch Miễu giờ cao điểm",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/cam-xe-tai-nang-qua-cau-rach-mieu-gio-cao-diem-4644928.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/dsc2205jpg-1692753928-4266-169-3466-6125-1692761833.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=K1Jt0UbSKIkKX11xhqpUNw\" ></a></br>Cục Đường bộ đồng ý đề xuất của Tiền Giang về cấm ôtô tải từ 3 trục trở lên (trên 24 tấn) qua cầu Rạch Miễu giờ cao điểm thứ bảy, chủ nhật nhằm hạn chế ùn tắc. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 10:43:33 +0700",
+          "link": "https://vnexpress.net/cam-xe-tai-nang-qua-cau-rach-mieu-gio-cao-diem-4644928.html",
+          "guid": "https://vnexpress.net/cam-xe-tai-nang-qua-cau-rach-mieu-gio-cao-diem-4644928.html",
+          "comments": 0
+        },
+        {
+          "title": "Lễ xá tội vong nhân của người Hoa ở Sài Gòn",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/le-xa-toi-vong-nhan-cua-nguoi-hoa-o-sai-gon-4644797.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/233a2293-1692700253-1692711593.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=mLXJVXN6PMJy-qI4T27qOw\" ></a></br>Tại Khánh Vân Nam Viện, đạo quán lớn nhất Sài Gòn, quận 11, hàng trăm người ôm bài vị đi qua cầu, mong linh hồn thân nhân sớm siêu thoát trong tháng cô hồn. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/le-xa-toi-vong-nhan-cua-nguoi-hoa-o-sai-gon-4644797.html",
+          "guid": "https://vnexpress.net/le-xa-toi-vong-nhan-cua-nguoi-hoa-o-sai-gon-4644797.html",
+          "comments": 0
+        },
+        {
+          "title": "Đề xuất ga Sài Gòn thành đầu mối trung chuyển khách",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/de-xuat-ga-sai-gon-thanh-dau-moi-trung-chuyen-khach-4644648.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/z4625926138169-eeb21e07b66dca6-5545-2532-1692691201.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=D6wKx2Th0spzLxKp4UV4Fw\" ></a></br>Ga Sài Gòn được đề xuất quy hoạch lại với diện tích 6,85 ha, làm quảng trường, trở thành đầu mối trung chuyển khách giữa đường sắt tốc độ cao, metro, buýt. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/de-xuat-ga-sai-gon-thanh-dau-moi-trung-chuyen-khach-4644648.html",
+          "guid": "https://vnexpress.net/de-xuat-ga-sai-gon-thanh-dau-moi-trung-chuyen-khach-4644648.html",
+          "comments": 0
+        },
+        {
+          "title": "Thuần hóa gà rừng tai trắng thu nửa tỷ đồng mỗi năm",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/thuan-hoa-ga-rung-tai-trang-thu-nua-ty-dong-moi-nam-4644572.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/2-1692674045-9648-1692674346.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=6rozXrLaFca2oxq24eQZbw\" ></a></br>Cất tấm bằng đại học, rong ruổi từ Bắc vào Nam tìm mua gà rừng tai trắng về nhân giống, sau nhiều thất bại, hiện anh Chinh sở hữu trang trại tiền tỷ. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/thuan-hoa-ga-rung-tai-trang-thu-nua-ty-dong-moi-nam-4644572.html",
+          "guid": "https://vnexpress.net/thuan-hoa-ga-rung-tai-trang-thu-nua-ty-dong-moi-nam-4644572.html",
+          "comments": 0
+        },
+        {
+          "title": "Ôtô, môtô vàng mã xuất xưởng mùa Vu Lan",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/oto-moto-vang-ma-xuat-xuong-mua-vu-lan-4643826.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/23/3-JPG-1692798524.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=qPiMHPRiAEU-Bu6Cp0lwrg\" ></a></br>Ôtô, xe phân khối lớn, thuyền buồm, đồ chơi golf... làm bằng vàng mã giá từ vài triệu đến 20 triệu đồng, đang được các cơ sở ở xã Song Hồ xuất bán rằm tháng bảy. "
+          },
+          "pubDate": "Wed, 23 Aug 2023 20:50:00 +0700",
+          "link": "https://vnexpress.net/oto-moto-vang-ma-xuat-xuong-mua-vu-lan-4643826.html",
+          "guid": "https://vnexpress.net/oto-moto-vang-ma-xuat-xuong-mua-vu-lan-4643826.html",
+          "comments": 0
+        },
+        {
+          "title": "Cây đổ đè chết người ở TP HCM",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/cay-do-de-chet-nguoi-o-tp-hcm-4644833.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/a-nh-chu-p-ma-n-hi-nh-2023-08-9970-1127-1692718004.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=nivSpvx_ad6a67bWdsHRQw\" ></a></br>Đứng dưới tán si cao khoảng 10 m ở TP Thủ Đức khi mưa lớn, người đàn ông bị cây đổ đè tử vong, tối 22/8. "
+          },
+          "pubDate": "Tue, 22 Aug 2023 22:28:41 +0700",
+          "link": "https://vnexpress.net/cay-do-de-chet-nguoi-o-tp-hcm-4644833.html",
+          "guid": "https://vnexpress.net/cay-do-de-chet-nguoi-o-tp-hcm-4644833.html",
+          "comments": 0
+        },
+        {
+          "title": "Phó thủ tướng Lê Văn Thành qua đời",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/pho-thu-tuong-le-van-thanh-qua-doi-4644516.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/315517844-832350064670753-2030-7047-2693-1692716485.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=gTHQBJQwWwfWpNhId_P1-g\" ></a></br>Ông Lê Văn Thành, Ủy viên Trung ương Đảng, Phó thủ tướng, qua đời lúc 20h20 ngày 22/8 tại nhà riêng ở phố Lạch Tray, quận Ngô Quyền, TP Hải Phòng. "
+          },
+          "pubDate": "Tue, 22 Aug 2023 22:12:54 +0700",
+          "link": "https://vnexpress.net/pho-thu-tuong-le-van-thanh-qua-doi-4644516.html",
+          "guid": "https://vnexpress.net/pho-thu-tuong-le-van-thanh-qua-doi-4644516.html",
+          "comments": 0
+        },
+        {
+          "title": "Cháy lớn hai công ty",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/chay-lon-hai-cong-ty-4644822.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/z4626850392393-cc9000e7bd91586-7895-8695-1692712257.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=oJeD20JKyRYPeNbU5W-W5g\" ></a></br>Lửa bắt đầu bùng lên ở công ty chuyên sản xuất ống nhựa rồi lan sang doanh nghiệp bên cạnh, cột khói bốc cao ngùn ngụt, chiều 22/8. "
+          },
+          "pubDate": "Tue, 22 Aug 2023 20:54:26 +0700",
+          "link": "https://vnexpress.net/chay-lon-hai-cong-ty-4644822.html",
+          "guid": "https://vnexpress.net/chay-lon-hai-cong-ty-4644822.html",
+          "comments": 0
+        },
+        {
+          "title": "Bịt cống xả thải của nhà máy để đòi nợ",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/bit-cong-xa-thai-cua-nha-may-de-doi-no-4644707.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/z4625468174555-54a010758040d65-2235-8884-1692700930.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ZHFaUlhy6sCeEfXmsRrdEQ\" ></a></br>Một nhà máy thủy sản ở huyện Đức Hòa bị chủ đầu tư khu công nghiệp bịt cống xả thải suốt một tháng với lý do \"không nộp phí duy tu hạ tầng\". "
+          },
+          "pubDate": "Tue, 22 Aug 2023 17:42:31 +0700",
+          "link": "https://vnexpress.net/bit-cong-xa-thai-cua-nha-may-de-doi-no-4644707.html",
+          "guid": "https://vnexpress.net/bit-cong-xa-thai-cua-nha-may-de-doi-no-4644707.html",
+          "comments": 0
+        },
+        {
+          "title": "Mỏ vàng Bồng Miêu bị đào xới khi đang đóng cửa",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/mo-vang-bong-mieu-bi-dao-xoi-khi-dang-dong-cua-4644541.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/3b1170a04c749e2ac765-169267189-8922-7792-1692672564.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Z4YZplrk53Fzhx4lE71xbQ\" ></a></br>Nhiều người vẫn đưa máy móc, thiết bị vào khai thác vàng tại Bồng Miêu dù mỏ đang đóng cửa theo quyết định của chính quyền địa phương. "
+          },
+          "pubDate": "Tue, 22 Aug 2023 16:30:41 +0700",
+          "link": "https://vnexpress.net/mo-vang-bong-mieu-bi-dao-xoi-khi-dang-dong-cua-4644541.html",
+          "guid": "https://vnexpress.net/mo-vang-bong-mieu-bi-dao-xoi-khi-dang-dong-cua-4644541.html",
+          "comments": 0
+        },
+        {
+          "title": "Bộ Giao thông Vận tải: 'Cao tốc Biên Hòa - Vũng Tàu tiến độ rất chậm'",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/bo-giao-thong-van-tai-cao-toc-bien-hoa-vung-tau-tien-do-rat-cham-4644628.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/caotocBienHoaVungTaujpeg643547-8968-2656-1692680926.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=lRBN4sUsoMlEtbc1ja4E4Q\" ></a></br>Đánh giá tiến độ dự án cao tốc Biên Hòa - Vũng Tàu triển khai rất chậm, Bộ Giao thông Vận tải yêu cầu tỉnh Đồng Nai đẩy nhanh giải phóng mặt bằng. "
+          },
+          "pubDate": "Tue, 22 Aug 2023 13:19:10 +0700",
+          "link": "https://vnexpress.net/bo-giao-thong-van-tai-cao-toc-bien-hoa-vung-tau-tien-do-rat-cham-4644628.html",
+          "guid": "https://vnexpress.net/bo-giao-thong-van-tai-cao-toc-bien-hoa-vung-tau-tien-do-rat-cham-4644628.html",
+          "comments": 0
+        },
+        {
+          "title": "Chạy thử cầu cạn có trụ cao nhất Việt Nam",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/chay-thu-cau-can-co-tru-cao-nhat-viet-nam-4644540.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/photo-6554235-dji-635-jpg-5319-9071-1786-1692671420.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ILAKP40LZnP0heJuZUWNEQ\" ></a></br>Từ 15h ngày 22/8, các phương tiện trừ xe container và xe có trọng tải trên 20 tấn, sẽ được chạy thử trên cầu Móng Sến - cầu cạn có trụ cao nhất Việt Nam. "
+          },
+          "pubDate": "Tue, 22 Aug 2023 10:28:35 +0700",
+          "link": "https://vnexpress.net/chay-thu-cau-can-co-tru-cao-nhat-viet-nam-4644540.html",
+          "guid": "https://vnexpress.net/chay-thu-cau-can-co-tru-cao-nhat-viet-nam-4644540.html",
+          "comments": 0
+        },
+        {
+          "title": "Đề cử rừng Cần Giờ thành khu Ramsar",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/de-cu-rung-can-gio-thanh-khu-ramsar-4644412.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/dao-khi-can-gio-36-1692634983-6346-1692635092.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Z9qhzvbkoYwCC51nYjAlUQ\" ></a></br>Chính quyền TP HCM đề cử rừng phòng hộ Cần Giờ thành khu Ramsar, tức vùng đất ngập nước có tầm quan trọng quốc tế để quản lý hiệu quả. "
+          },
+          "pubDate": "Tue, 22 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/de-cu-rung-can-gio-thanh-khu-ramsar-4644412.html",
+          "guid": "https://vnexpress.net/de-cu-rung-can-gio-thanh-khu-ramsar-4644412.html",
+          "comments": 0
+        },
+        {
+          "title": "Bắt nhện rừng làm món ăn",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/bat-nhen-rung-lam-mon-an-4644127.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/nhendensocvang-1692590600-9455-1692593065.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wEhAxf8TaEhPTZSRkDLc1A\" ></a></br>Người dân huyện Yên Thành vào rừng bắt nhện đen sọc vàng bán cho thương lái xuất sang Trung Quốc làm mồi nhậu, thu gần 200.000 đồng một ngày. "
+          },
+          "pubDate": "Tue, 22 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/bat-nhen-rung-lam-mon-an-4644127.html",
+          "guid": "https://vnexpress.net/bat-nhen-rung-lam-mon-an-4644127.html",
+          "comments": 0
+        },
+        {
+          "title": "Cuộc sống mới ở vùng quy hoạch làm nhà máy điện hạt nhân",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/cuoc-song-moi-o-vung-quy-hoach-lam-nha-may-dien-hat-nhan-4644017.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/xay-nha-moi-thon-thai-an-jpg-1-7170-7367-1692584092.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=y9s6k0ovqAudq-loG9iBfg\" ></a></br>Sau 14 năm bị quy hoạch treo bởi dự án điện hạt nhân, hơn nghìn hộ dân ở Ninh Thuận vui mừng vì được tự do làm ăn, xây dựng nhà cửa trên mảnh đất quê hương. "
+          },
+          "pubDate": "Tue, 22 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/cuoc-song-moi-o-vung-quy-hoach-lam-nha-may-dien-hat-nhan-4644017.html",
+          "guid": "https://vnexpress.net/cuoc-song-moi-o-vung-quy-hoach-lam-nha-may-dien-hat-nhan-4644017.html",
+          "comments": 0
+        },
+        {
+          "title": "Di dời người dân khỏi lăng các vua triều Nguyễn",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/di-doi-nguoi-dan-khoi-lang-cac-vua-trieu-nguyen-4644342.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/1-4432-1692617239.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=GCpwoLjcFArnQnh25rGiWQ\" ></a></br>1.287 hộ dân sẽ được di dời khỏi 19 di tích, trong đó có 307 hộ dân ở An Lăng - nơi an nghỉ vua Duy Tân, Thành Thái và Dục Đức. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 23:08:41 +0700",
+          "link": "https://vnexpress.net/di-doi-nguoi-dan-khoi-lang-cac-vua-trieu-nguyen-4644342.html",
+          "guid": "https://vnexpress.net/di-doi-nguoi-dan-khoi-lang-cac-vua-trieu-nguyen-4644342.html",
+          "comments": 0
+        },
+        {
+          "title": "21 hài cốt liệt sĩ ở sườn núi",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/21-hai-cot-liet-si-o-suon-nui-4644385.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/a-hai-cot-liet-si-huong-lap-16-6293-7964-1692625343.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=MhyqhicHeUjI-eMLX02FQw\" ></a></br>​21 hài cốt liệt sĩ được chôn cất ở độ sâu 0,2 đến 0,5 m tại sườn núi, trong hang đá, với nhiều di vật như cúc áo, đế giày, đạn súng AK. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 22:44:14 +0700",
+          "link": "https://vnexpress.net/21-hai-cot-liet-si-o-suon-nui-4644385.html",
+          "guid": "https://vnexpress.net/21-hai-cot-liet-si-o-suon-nui-4644385.html",
+          "comments": 0
+        },
+        {
+          "title": "Sớm lập sàn giao dịch việc làm trực tuyến quốc gia",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/som-lap-san-giao-dich-viec-lam-truc-tuyen-quoc-gia-4644381.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/san1-16926201408891169606670-1-8008-2494-1692625836.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=MVlFius3NFqJVW0AFVZelQ\" ></a></br>Phó thủ tướng Trần Hồng Hà yêu cầu thúc đẩy mô hình sàn giao dịch việc làm trực tuyến quốc gia, trong đó trung tâm môi giới lao động nước ngoài có thể tham gia. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 22:17:11 +0700",
+          "link": "https://vnexpress.net/som-lap-san-giao-dich-viec-lam-truc-tuyen-quoc-gia-4644381.html",
+          "guid": "https://vnexpress.net/som-lap-san-giao-dich-viec-lam-truc-tuyen-quoc-gia-4644381.html",
+          "comments": 0
+        },
+        {
+          "title": "Quận Đồ Sơn làm rõ pháp lý vụ tự ý xét nghiệm máu học sinh",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/quan-do-son-lam-ro-phap-ly-vu-tu-y-xet-nghiem-mau-hoc-sinh-4644204.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/nhom-tu-luc-cong-dong-16926085-1448-2228-1692612880.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=KEUk_f-5wsRLTzRpWxXcbg\" ></a></br>Nhóm hoạt động cộng đồng Bông hồng đen bị phụ huynh đề nghị xử lý vì tự ý xét nghiệm máu, lấy vân tay của một số học sinh tại quận Đồ Sơn. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 17:15:58 +0700",
+          "link": "https://vnexpress.net/quan-do-son-lam-ro-phap-ly-vu-tu-y-xet-nghiem-mau-hoc-sinh-4644204.html",
+          "guid": "https://vnexpress.net/quan-do-son-lam-ro-phap-ly-vu-tu-y-xet-nghiem-mau-hoc-sinh-4644204.html",
+          "comments": 0
+        },
+        {
+          "title": "Bốn cao tốc vừa khai thác đã được đề nghị mở rộng",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/bon-cao-toc-vua-khai-thac-da-duoc-de-nghi-mo-rong-4644057.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/cao-toc-13-3515-1692605413-169-4180-9057-1692612787.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=ZwNAxeeKUEy6WfuwrGuacw\" ></a></br>Các tuyến cao tốc Cao Bồ - Mai Sơn, Trung Lương - Mỹ Thuận, Cam Lộ - La Sơn, La Sơn - Túy Loan đã được đề xuất mở rộng dù mới khai thác một năm. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 17:13:07 +0700",
+          "link": "https://vnexpress.net/bon-cao-toc-vua-khai-thac-da-duoc-de-nghi-mo-rong-4644057.html",
+          "guid": "https://vnexpress.net/bon-cao-toc-vua-khai-thac-da-duoc-de-nghi-mo-rong-4644057.html",
+          "comments": 0
+        },
+        {
+          "title": "Truy thu 123 triệu đồng tiền lãi vụ trả lương hưu cho người đã chết",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/truy-thu-123-trieu-dong-tien-lai-vu-tra-luong-huu-cho-nguoi-da-chet-4644228.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/phuyen-5647-1692603639-1692608-9728-6921-1692608785.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=kCVufSBPrZgpBTDaZFyZiQ\" ></a></br>Bảo hiểm xã hội Phú Yên yêu cầu bưu điện tỉnh nộp 123 triệu đồng tiền lãi và thu hồi hơn 395 triệu lương hưu chi sai cho người mất từ năm 2016 đến giữa năm 2023. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 15:50:08 +0700",
+          "link": "https://vnexpress.net/truy-thu-123-trieu-dong-tien-lai-vu-tra-luong-huu-cho-nguoi-da-chet-4644228.html",
+          "guid": "https://vnexpress.net/truy-thu-123-trieu-dong-tien-lai-vu-tra-luong-huu-cho-nguoi-da-chet-4644228.html",
+          "comments": 0
+        },
+        {
+          "title": "Sạt lở núi ở An Giang",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/sat-lo-nui-o-an-giang-4644110.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/da-lan-1461-1692589012-1692604-5409-2364-1692605286.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=gXVfSfrV9YaMdI-orDFv-g\" ></a></br>Núi Ba Thê thuộc huyện Thoại Sơn liên tục sạt lở, nhiều hòn đá nặng vài tấn chắn giữa đường, địa phương phải phong tỏa, không cho khách lên ngắm cảnh. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 15:08:06 +0700",
+          "link": "https://vnexpress.net/sat-lo-nui-o-an-giang-4644110.html",
+          "guid": "https://vnexpress.net/sat-lo-nui-o-an-giang-4644110.html",
+          "comments": 0
+        },
+        {
+          "title": "Metro Bến Thành - Suối Tiên sẽ chạy thử toàn tuyến cuối tháng 8",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/metro-ben-thanh-suoi-tien-se-chay-thu-toan-tuyen-cuoi-thang-8-4644179.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/Metro271682505209-1692595651-4840-1692595700.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Peqh4HNb9KOfuZLfXbhOwA\" ></a></br>Tàu Metro số 1 dự kiến chạy thử toàn tuyến với lộ trình gần 20 km, từ ga Suối Tiên đến Bến Thành cuối tháng 8, sau thời gian thử nghiệm các đoạn ngắn trên cao. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 13:50:00 +0700",
+          "link": "https://vnexpress.net/metro-ben-thanh-suoi-tien-se-chay-thu-toan-tuyen-cuoi-thang-8-4644179.html",
+          "guid": "https://vnexpress.net/metro-ben-thanh-suoi-tien-se-chay-thu-toan-tuyen-cuoi-thang-8-4644179.html",
+          "comments": 0
+        },
+        {
+          "title": "Nghỉ việc rút BHXH một lần để 'chạy luật'",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/nghi-viec-rut-bhxh-mot-lan-de-chay-luat-4644076.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/bhxh-thuduc-ttung-22-9432-1692-4310-7763-1692592520.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FvRXmescKDbOAbyWFnFbIA\" ></a></br>Nhiều lao động cho rằng không được nhận trợ cấp một lần, tiền cũng bị giảm khi Luật Bảo hiểm xã hội (BHXH) sửa đổi hiệu lực nên chủ động nghỉ việc để \"hưởng chạy luật\". "
+          },
+          "pubDate": "Mon, 21 Aug 2023 12:00:00 +0700",
+          "link": "https://vnexpress.net/nghi-viec-rut-bhxh-mot-lan-de-chay-luat-4644076.html",
+          "guid": "https://vnexpress.net/nghi-viec-rut-bhxh-mot-lan-de-chay-luat-4644076.html",
+          "comments": 0
+        },
+        {
+          "title": "Cho phép dừng đỗ xe trên đường bao vịnh Hạ Long",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/cho-phep-dung-do-xe-tren-duong-bao-vinh-ha-long-4644031.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/21/z4621700715477-94673fdb4eae0dc-4061-4684-1692583104.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=rXgAsmZMqTmlVGoMuxMdCQ\" ></a></br>Biển báo cấm dừng đỗ xe trên đường bao biển Trần Quốc Nghiễn được tháo bỏ để du khách có thể dừng ngắm vịnh Hạ Long. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 10:42:52 +0700",
+          "link": "https://vnexpress.net/cho-phep-dung-do-xe-tren-duong-bao-vinh-ha-long-4644031.html",
+          "guid": "https://vnexpress.net/cho-phep-dung-do-xe-tren-duong-bao-vinh-ha-long-4644031.html",
+          "comments": 0
+        },
+        {
+          "title": "Dự án dỡ đường ray bán đất ở Bình Dương hoang phế",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/du-an-do-duong-ray-ban-dat-o-binh-duong-hoang-phe-4642266.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/dji-0700-2-1692418109-1692418311.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=LeUmAoJTYgaKlYDZGBRjAw\" ></a></br>Dự án khu nhà ở thương mại đường sắt mở rộng, TP Dĩ An, hiện ngưng sau 8 năm thực hiện, cỏ cây mọc kín, đường ray bị tháo dỡ chất đống. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 05:00:00 +0700",
+          "link": "https://vnexpress.net/du-an-do-duong-ray-ban-dat-o-binh-duong-hoang-phe-4642266.html",
+          "guid": "https://vnexpress.net/du-an-do-duong-ray-ban-dat-o-binh-duong-hoang-phe-4642266.html",
+          "comments": 0
+        },
+        {
+          "title": "Rừng phòng hộ ven biển miền Trung chết khô",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/rung-phong-ho-ven-bien-mien-trung-chet-kho-4643874.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/20/anh-2-1692519817-1692536598.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5Og4CLg-G9IYOIo8wJcIqA\" ></a></br>Hàng chục hecta rừng phi lao, keo tràm phòng hộ ven biển Thừa Thiên Huế chết do nắng nóng, trong khi rừng ở Quảng Nam bị cháy rụi. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 03:00:00 +0700",
+          "link": "https://vnexpress.net/rung-phong-ho-ven-bien-mien-trung-chet-kho-4643874.html",
+          "guid": "https://vnexpress.net/rung-phong-ho-ven-bien-mien-trung-chet-kho-4643874.html",
+          "comments": 0
+        },
+        {
+          "title": "21 năm chờ đợi một đường ray",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/21-nam-cho-doi-mot-duong-ray-4630931.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/07/24/top-1690195796-2083-1690195844.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=rTNt0wFf12JbMCHrDLEozg\" ></a></br>Được kỳ vọng là động lực kết nối giao thông, thúc đẩy kinh tế, nhưng metro Nhổn - ga Hà Nội bảy lần lùi tiến độ, hai lần đội vốn, giày vò người dân sống dọc đại công trường 12,5 km. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/21-nam-cho-doi-mot-duong-ray-4630931.html",
+          "guid": "https://vnexpress.net/21-nam-cho-doi-mot-duong-ray-4630931.html",
+          "comments": 0
+        },
+        {
+          "title": "Taxi dàn hàng bắt khách trước bến xe",
+          "description": {
+            "__cdata": " <a href=\"https://video.vnexpress.net/tin-tuc/thoi-su/taxi-dan-hang-bat-khach-truoc-ben-xe-4644200.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/22/tatxibatkhach-1692685318-3060-1692685339.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=7WehFQkN7Ek-rJP4nTrKPA\" ></a></br>Hàng loạt xe dừng đỗ, đón khách trước bến xe Nước Ngầm rạng sáng hàng ngày, gây cản trở và ùn tắc giao thông kéo dài trên đường Ngọc Hồi, quận Hoàng Mai. "
+          },
+          "pubDate": "Mon, 21 Aug 2023 14:37:58 +0700",
+          "link": "https://video.vnexpress.net/tin-tuc/thoi-su/taxi-dan-hang-bat-khach-truoc-ben-xe-4644200.html",
+          "guid": "https://video.vnexpress.net/tin-tuc/thoi-su/taxi-dan-hang-bat-khach-truoc-ben-xe-4644200.html",
+          "comments": 0
+        },
+        {
+          "title": "Bổ sung sân bay Măng Đen vào quy hoạch cảng hàng không",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/bo-sung-san-bay-mang-den-vao-quy-hoach-cang-hang-khong-4643950.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/20/img3007-1692510680911763578269-3906-4270-1692546191.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=wVSna-wvK-pTHE2D7-iCzg\" ></a></br>Thủ tướng Phạm Minh Chính đồng ý chủ trương bổ sung sân bay Măng Đen vào quy hoạch cảng hàng không theo đề xuất của tỉnh Kon Tum. "
+          },
+          "pubDate": "Sun, 20 Aug 2023 23:25:13 +0700",
+          "link": "https://vnexpress.net/bo-sung-san-bay-mang-den-vao-quy-hoach-cang-hang-khong-4643950.html",
+          "guid": "https://vnexpress.net/bo-sung-san-bay-mang-den-vao-quy-hoach-cang-hang-khong-4643950.html",
+          "comments": 0
+        },
+        {
+          "title": "TP HCM tính thuê thêm phà giảm tải cho bến Bình Khánh",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/tp-hcm-tinh-thue-them-pha-giam-tai-cho-ben-binh-khanh-4643920.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/20/anh11JPG-1692531292-3889-1692531420.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=AYHRoAomSXdaKz_f1eeXlQ\" ></a></br>Bến Bình Khánh nối huyện Cần Giờ qua nội đô thành phố đang được tính toán thuê thêm phà nhằm đáp ứng nhu cầu đi lại trước tình trạng ùn tắc thường xuyên. "
+          },
+          "pubDate": "Sun, 20 Aug 2023 19:00:31 +0700",
+          "link": "https://vnexpress.net/tp-hcm-tinh-thue-them-pha-giam-tai-cho-ben-binh-khanh-4643920.html",
+          "guid": "https://vnexpress.net/tp-hcm-tinh-thue-them-pha-giam-tai-cho-ben-binh-khanh-4643920.html",
+          "comments": 0
+        },
+        {
+          "title": "Miền Bắc, Nam tiếp tục mưa giông",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/mien-bac-nam-tiep-tuc-mua-giong-4643900.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/20/369061484-1019295439080721-316-2400-4288-1692525829.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=n-n4DZT91TSGh6TkhJpkBQ\" ></a></br>Rãnh áp thấp ở miền Bắc và gió mùa tây nam ở miền Nam sẽ tiếp tục gây mưa giông trong tuần tới, theo Trung tâm Dự báo Khí tượng Thủy văn quốc gia. "
+          },
+          "pubDate": "Sun, 20 Aug 2023 18:13:13 +0700",
+          "link": "https://vnexpress.net/mien-bac-nam-tiep-tuc-mua-giong-4643900.html",
+          "guid": "https://vnexpress.net/mien-bac-nam-tiep-tuc-mua-giong-4643900.html",
+          "comments": 0
+        },
+        {
+          "title": "Bộ Nông nghiệp phản hồi đề xuất không di dời khu dân cư bãi giữa sông Hồng",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/bo-nong-nghiep-phan-hoi-de-xuat-khong-di-doi-khu-dan-cu-bai-giua-song-hong-4643890.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/20/Screenshot20230820at165537-169-2326-2547-1692525569.png?w=1200&h=0&q=100&dpr=1&fit=crop&s=58iTj-gK6cBDaWS58veCLw\" ></a></br>Bộ Nông nghiệp và Phát triển nông thôn nói sẽ báo cáo Thủ tướng xem xét đề nghị không di dời khu dân cư Bắc Cầu, quận Long Biên (bãi giữa sông Hồng). "
+          },
+          "pubDate": "Sun, 20 Aug 2023 17:58:08 +0700",
+          "link": "https://vnexpress.net/bo-nong-nghiep-phan-hoi-de-xuat-khong-di-doi-khu-dan-cu-bai-giua-song-hong-4643890.html",
+          "guid": "https://vnexpress.net/bo-nong-nghiep-phan-hoi-de-xuat-khong-di-doi-khu-dan-cu-bai-giua-song-hong-4643890.html",
+          "comments": 0
+        },
+        {
+          "title": "Công an được thăng hàm cấp tướng trước thời hạn nếu thành tích đặc biệt xuất sắc",
+          "description": {
+            "__cdata": " Theo nghị định mới của Chính phủ, sĩ quan công an được xét thăng bậc hàm cấp tướng trước thời hạn nếu lập thành tích đặc biệt xuất sắc trong bảo vệ an ninh quốc gia. "
+          },
+          "pubDate": "Sun, 20 Aug 2023 17:00:40 +0700",
+          "link": "https://vnexpress.net/cong-an-duoc-thang-ham-cap-tuong-truoc-thoi-han-neu-thanh-tich-dac-biet-xuat-sac-4642048.html",
+          "guid": "https://vnexpress.net/cong-an-duoc-thang-ham-cap-tuong-truoc-thoi-han-neu-thanh-tich-dac-biet-xuat-sac-4642048.html",
+          "comments": 0
+        },
+        {
+          "title": "Nhiều tuyến đường Hà Nội ngập sâu sau mưa",
+          "description": {
+            "__cdata": " <a href=\"https://video.vnexpress.net/tin-tuc/thoi-su/nhieu-tuyen-duong-ha-noi-ngap-sau-sau-mua-4643865.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/20/ngpng-1692517435-3951-1692517490.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=XcCvuH7X8bmdGF3Ap7xYXg\" ></a></br>Mưa lớn kéo dài hơn ba giờ gây ngập úng nhiều tuyến phố ở Hà Nội, người dân đi lại khó khăn, hàng loạt xe hai bánh, ôtô chết máy, ngày 20/8. "
+          },
+          "pubDate": "Sun, 20 Aug 2023 15:08:36 +0700",
+          "link": "https://video.vnexpress.net/tin-tuc/thoi-su/nhieu-tuyen-duong-ha-noi-ngap-sau-sau-mua-4643865.html",
+          "guid": "https://video.vnexpress.net/tin-tuc/thoi-su/nhieu-tuyen-duong-ha-noi-ngap-sau-sau-mua-4643865.html",
+          "comments": 0
+        },
+        {
+          "title": "Xe tải cháy ngùn ngụt trên cao tốc",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/xe-tai-chay-ngun-ngut-tren-cao-toc-4643839.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/20/z4619701049994-4d6a942831e4331-6885-8688-1692509305.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=dETCaCTxAnkOC2tb6OdVzA\" ></a></br>Đang chạy trên cao tốc, tài xế phát hiện xe bốc cháy phía trước cabin đã tấp vào làn khẩn cấp nhưng không kịp dập lửa, sáng 20/8. "
+          },
+          "pubDate": "Sun, 20 Aug 2023 12:19:17 +0700",
+          "link": "https://vnexpress.net/xe-tai-chay-ngun-ngut-tren-cao-toc-4643839.html",
+          "guid": "https://vnexpress.net/xe-tai-chay-ngun-ngut-tren-cao-toc-4643839.html",
+          "comments": 0
+        },
+        {
+          "title": "Vợ chồng miền Tây thu gần nửa tỷ đồng mỗi năm từ nấm rơm",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/vo-chong-mien-tay-thu-gan-nua-ty-dong-moi-nam-tu-nam-rom-4643216.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/20/dsc00045-jpg-3567-1692446703-1-9605-8044-1692467698.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nWQ9BC8s3B3TeyhN7Bl1kw\" ></a></br>Nhiều lần khởi nghiệp thất bại, vợ chồng anh Lâm Thái Dương không nản, chuyển sang trồng nấm rơm trong nhà cho lợi nhuận 400-500 triệu đồng mỗi năm. "
+          },
+          "pubDate": "Sun, 20 Aug 2023 05:00:00 +0700",
+          "link": "https://vnexpress.net/vo-chong-mien-tay-thu-gan-nua-ty-dong-moi-nam-tu-nam-rom-4643216.html",
+          "guid": "https://vnexpress.net/vo-chong-mien-tay-thu-gan-nua-ty-dong-moi-nam-tu-nam-rom-4643216.html",
+          "comments": 0
+        },
+        {
+          "title": "Nha Trang đề xuất mở lại điểm lặn biển Hòn Mun",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/nha-trang-de-xuat-mo-lai-diem-lan-bien-hon-mun-4643671.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/lanbien-1692445498-2764-1692445742.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=KeZXJC4Y1XNLcGJ_V6aX3w\" ></a></br>Ban quản lý vịnh Nha Trang đề xuất mở lại điểm lặn ở khu vực Hòn Mun sau hơn một năm tạm ngưng để phục hồi hệ sinh thái san hô. "
+          },
+          "pubDate": "Sun, 20 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/nha-trang-de-xuat-mo-lai-diem-lan-bien-hon-mun-4643671.html",
+          "guid": "https://vnexpress.net/nha-trang-de-xuat-mo-lai-diem-lan-bien-hon-mun-4643671.html",
+          "comments": 0
+        },
+        {
+          "title": "Rã tàu cá bán phế liệu",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/ra-tau-ca-ban-phe-lieu-4642829.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/tau-gia-cao-7-1692249781-1692462616.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=5s_qh5tsz70M6kx2Mlrwwg\" ></a></br>Các đội thợ mộc ở xã Phước Tỉnh, huyện Long Điền, được thuê rã xác những con tàu giã cào từng có giá tiền tỷ để bán phế liệu vì chủ làm ăn thua lỗ. "
+          },
+          "pubDate": "Sun, 20 Aug 2023 00:00:00 +0700",
+          "link": "https://vnexpress.net/ra-tau-ca-ban-phe-lieu-4642829.html",
+          "guid": "https://vnexpress.net/ra-tau-ca-ban-phe-lieu-4642829.html",
+          "comments": 0
+        },
+        {
+          "title": "Lật thuyền thúng, hai người tử vong",
+          "description": {
+            "__cdata": " Hai ngư dân ở TP Tuy Hòa rời tàu để xuống thúng câu mực nhưng bị sóng to đánh trôi dạt ra xa. "
+          },
+          "pubDate": "Sat, 19 Aug 2023 18:19:35 +0700",
+          "link": "https://vnexpress.net/lat-thuyen-thung-hai-nguoi-tu-vong-4643664.html",
+          "guid": "https://vnexpress.net/lat-thuyen-thung-hai-nguoi-tu-vong-4643664.html",
+          "comments": 0
+        },
+        {
+          "title": "Kỷ niệm 135 năm ngày sinh Chủ tịch Tôn Đức Thắng",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/ky-niem-135-nam-ngay-sinh-chu-tich-ton-duc-thang-4643629.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/dsc-7007-jpg-1692434466-6088-1-3005-2090-1692436514.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=Xn2X85BC9p72EnhLAJCnrg\" ></a></br>Tỉnh An Giang tổ chức lễ kỷ niệm 135 năm ngày sinh Chủ tịch Tôn Đức Thắng, ngày 19/8. "
+          },
+          "pubDate": "Sat, 19 Aug 2023 16:16:40 +0700",
+          "link": "https://vnexpress.net/ky-niem-135-nam-ngay-sinh-chu-tich-ton-duc-thang-4643629.html",
+          "guid": "https://vnexpress.net/ky-niem-135-nam-ngay-sinh-chu-tich-ton-duc-thang-4643629.html",
+          "comments": 0
+        },
+        {
+          "title": "Quảng Nam kiến nghị đánh giá lại tàu hoán cải",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/quang-nam-kien-nghi-danh-gia-lai-tau-hoan-cai-4643620.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/IMG464657611646035515-16924306-5860-5083-1692431153.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=YQgZ6eaZRTQmHx6Z73Eazg\" ></a></br>Quảng Nam đề nghị Cục Đăng kiểm thành lập đoàn kiểm tra tàu hoán cải từ chuẩn VR-SI sang VR-SB sau vụ tai nạn tàu QNa-1159 khiến 17 người chết. "
+          },
+          "pubDate": "Sat, 19 Aug 2023 15:57:10 +0700",
+          "link": "https://vnexpress.net/quang-nam-kien-nghi-danh-gia-lai-tau-hoan-cai-4643620.html",
+          "guid": "https://vnexpress.net/quang-nam-kien-nghi-danh-gia-lai-tau-hoan-cai-4643620.html",
+          "comments": 0
+        },
+        {
+          "title": "'Quyết định chuyển đổi Khu bảo tồn thiên nhiên Tiền Hải gây ngỡ ngàng'",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/quyet-dinh-chuyen-doi-khu-bao-ton-thien-nhien-tien-hai-gay-ngo-ngang-4642729.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/367659268-644619124305747-5654-7685-3711-1692425953.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=GFV_Q5OgALqeTInIg6L3HA\" ></a></br>Quyết định chuyển đổi hơn 11.050 ha Khu bảo tồn thiên nhiên Tiền Hải để làm khu kinh tế \"gây ngỡ ngàng\" vì chưa được bộ ngành đồng thuận, Cục Lâm nghiệp cho biết. "
+          },
+          "pubDate": "Sat, 19 Aug 2023 13:13:24 +0700",
+          "link": "https://vnexpress.net/quyet-dinh-chuyen-doi-khu-bao-ton-thien-nhien-tien-hai-gay-ngo-ngang-4642729.html",
+          "guid": "https://vnexpress.net/quyet-dinh-chuyen-doi-khu-bao-ton-thien-nhien-tien-hai-gay-ngo-ngang-4642729.html",
+          "comments": 0
+        },
+        {
+          "title": "Đánh giá tác động môi trường các vùng biển lấy cát xây cao tốc",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/danh-gia-tac-dong-moi-truong-cac-vung-bien-lay-cat-xay-cao-toc-4643577.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/cao-toc-can-tho-ca-mau-1684495-5350-7817-1692418800.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=yG42jfb-_gu3z53XMvo1tg\" ></a></br>Bộ Tài nguyên Môi trường tính toán, xác định các vùng biển dự kiến lấy cát xây cao tốc và đánh giá tác động môi trường, Phó thủ tướng chỉ đạo. "
+          },
+          "pubDate": "Sat, 19 Aug 2023 11:48:15 +0700",
+          "link": "https://vnexpress.net/danh-gia-tac-dong-moi-truong-cac-vung-bien-lay-cat-xay-cao-toc-4643577.html",
+          "guid": "https://vnexpress.net/danh-gia-tac-dong-moi-truong-cac-vung-bien-lay-cat-xay-cao-toc-4643577.html",
+          "comments": 0
+        },
+        {
+          "title": "Mưa lớn làm cây bật gốc, đường phố ngập sâu ở Bắc Ninh",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/mua-lon-lam-cay-bat-goc-duong-pho-ngap-sau-o-bac-ninh-4643538.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/2391119339a6ebf8b2b7-jpeg-1692411882-1692418944.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=zwR9D7hA7rZMbGVZmwQUxA\" ></a></br>Cơn mưa kéo dài gần 3 giờ kèm gió lớn khiến đường phố thị trấn Lim, huyện Tiên Du ngập sâu, cây lớn và cột điện đổ rạp. "
+          },
+          "pubDate": "Sat, 19 Aug 2023 11:42:07 +0700",
+          "link": "https://vnexpress.net/mua-lon-lam-cay-bat-goc-duong-pho-ngap-sau-o-bac-ninh-4643538.html",
+          "guid": "https://vnexpress.net/mua-lon-lam-cay-bat-goc-duong-pho-ngap-sau-o-bac-ninh-4643538.html",
+          "comments": 0
+        },
+        {
+          "title": "Vì sao biển Sa Huỳnh ngập rác?",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/vi-sao-bien-sa-huynh-ngap-rac-4643336.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/don-rac-o-sa-huynh-9049-169234-7899-8002-1692422538.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=nqBezw6bCrIdAUqlLccJCQ\" ></a></br>Nhà máy rác bị cho xây dựng sai khoảng cách, dừng hoạt động suốt 5 năm, người dân vứt chất thải ra biển Sa Huỳnh, thị xã Đức Phổ, gây ô nhiễm kéo dài. "
+          },
+          "pubDate": "Sat, 19 Aug 2023 11:31:00 +0700",
+          "link": "https://vnexpress.net/vi-sao-bien-sa-huynh-ngap-rac-4643336.html",
+          "guid": "https://vnexpress.net/vi-sao-bien-sa-huynh-ngap-rac-4643336.html",
+          "comments": 0
+        },
+        {
+          "title": "7 người thoát nạn trong ngôi nhà bị cháy bất thường",
+          "description": {
+            "__cdata": " <a href=\"https://vnexpress.net/7-nguoi-thoat-nan-trong-ngoi-nha-bi-chay-bat-thuong-4643526.html\"><img src=\"https://i1-vnexpress.vnecdn.net/2023/08/19/cha-y-jpeg-5835-1692416647-169-7569-8883-1692416874.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=cFVSea3UHw3QrtPmLQQADA\" ></a></br>Ngọn lửa bùng lên tại ngôi nhà một tầng, gác lửng, rộng 100 m2, năm người lớn và hai trẻ em đã kịp thời thoát ra bằng đường cửa sau, sáng 19/8. "
+          },
+          "pubDate": "Sat, 19 Aug 2023 10:44:07 +0700",
+          "link": "https://vnexpress.net/7-nguoi-thoat-nan-trong-ngoi-nha-bi-chay-bat-thuong-4643526.html",
+          "guid": "https://vnexpress.net/7-nguoi-thoat-nan-trong-ngoi-nha-bi-chay-bat-thuong-4643526.html",
+          "comments": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "rss": {
+    "channel": {
+      "title": "",
+      "description": "",
+      "image": {
+        "url": "",
+        "title": "",
+        "link": ""
+      },
+      "pubDate": "",
+      "link": "",
+      "news": [
+        {
+          "title": "",
+          "description": "",
+          "pubDate": "",
+          "link": "",
+          "guid": "",
+          "image": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "pubDate": "",
+          "link": "",
+          "guid": "",
+          "image": ""
+        },
+        {
+          "title": "",
+          "description": "",
+          "pubDate": "",
+          "link": "",
+          "guid": "",
+          "image": ""
+        }
+      ]
+    }
+  }
+}

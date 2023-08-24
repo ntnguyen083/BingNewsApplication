@@ -1,0 +1,157 @@
+{
+  "categories": [
+    {
+      "name": "World",
+      "listChanel": [
+        {
+          "channelName": "laodong",
+          "rssURL": "https://laodong.vn/rss/the-gioi.rss"
+        },
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/the-gioi.rss"
+        },
+        {
+          "channelName": "tienphong",
+          "rssURL": "https://tienphong.vn/rss/the-gioi-5.rss"
+        }
+      ]
+    },
+    {
+      "name": "News",
+      "listChanel": [
+        {
+          "channelName": "laodong",
+          "rssURL": "https://laodong.vn/rss/thoi-su.rss"
+        },
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/thoi-su.rss"
+        },
+        {
+          "channelName": "tienphong",
+          "rssURL": "https://tienphong.vn/rss/thoi-su-421.rss"
+        }
+      ]
+    },
+    {
+      "name": "Law",
+      "listChanel": [
+        {
+          "channelName": "laodong",
+          "rssURL": "https://laodong.vn/rss/phap-luat.rss"
+        },
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/phap-luat.rss"
+        },
+        {
+          "channelName": "tienphong",
+          "rssURL": "https://tienphong.vn/rss/phap-luat-12.rss"
+        }
+      ]
+    },
+    {
+      "name": "Business",
+      "listChanel": [
+        {
+          "channelName": "laodong",
+          "rssURL": "https://laodong.vn/rss/kinh-doanh.rss"
+        },
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/kinh-doanh.rss"
+        },
+        {
+          "channelName": "tienphong",
+          "rssURL": "https://tienphong.vn/rss/kinh-te-3.rss"
+        }
+      ]
+    },
+    {
+      "name": "Entertainment",
+      "listChanel": [
+        {
+          "channelName": "laodong",
+          "rssURL": "https://laodong.vn/rss/van-hoa-giai-tri.rss"
+        },
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/giai-tri.rss"
+        },
+        {
+          "channelName": "tienphong",
+          "rssURL": "https://tienphong.vn/rss/giai-tri-36.rss"
+        }
+      ]
+    },
+    {
+      "name": "Car",
+      "listChanel": [
+        {
+          "channelName": "laodong",
+          "rssURL": "https://laodong.vn/rss/xe.rss"
+        },
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/oto-xe-may.rss"
+        },
+        {
+          "channelName": "tienphong",
+          "rssURL": "https://tienphong.vn/rss/xe-113.rss"
+        }
+      ]
+    },
+    {
+      "name": "Sport",
+      "listChanel": [
+        {
+          "channelName": "laodong",
+          "rssURL": "https://laodong.vn/rss/the-thao.rss"
+        },
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/the-thao.rss"
+        },
+        {
+          "channelName": "tienphong",
+          "rssURL": "https://tienphong.vn/rss/the-thao-11.rss"
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "listChanel": [
+        {
+          "channelName": "laodong",
+          "rssURL": "https://laodong.vn/rss/suc-khoe.rss"
+        },
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/suc-khoe.rss"
+        },
+        {
+          "channelName": "tienphong",
+          "rssURL": "https://tienphong.vn/rss/suc-khoe-210.rss"
+        }
+      ]
+    },
+    {
+      "name": "Trending",
+      "listChanel": [
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/tin-noi-bat.rss"
+        },
+        {
+          "channelName": "VnExpress",
+          "rssURL": "https://vnexpress.net/rss/tin-xem-nhieu.rss"
+        },
+        {
+          "channelName": "GoogleTrend",
+          "rssURL": "https://trends.google.com.vn/trends/trendingsearches/daily/rss?geo=VN"
+        }
+      ]
+    }
+  ]
+}
