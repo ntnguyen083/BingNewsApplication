@@ -10,12 +10,22 @@ public class Category {
     private List<Channel> listChanel;
 
     @JsonProperty("name")
-    public String getName() { return name; }
+    public String getName() {
+        return name;
+    }
+
     @JsonProperty("name")
-    public void setName(String value) { this.name = value; }
+    public void setName(String value) {
+        this.name = value;
+    }
 
     @JsonProperty("listChanel")
-    public List<Channel> getListChanel() { return listChanel; }
+    public List<Channel> getListChanel() {
+        return listChanel;
+    }
+
     @JsonProperty("listChanel")
-    public void setListChanel(List<Channel> value) { this.listChanel = value; }
+    public void setListChanel(List<Channel> value) {
+        this.listChanel = value;
+    }
 }
