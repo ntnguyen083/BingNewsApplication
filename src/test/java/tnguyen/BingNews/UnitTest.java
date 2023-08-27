@@ -2,8 +2,7 @@ package tnguyen.BingNews;
 
 import org.json.JSONObject;
 import org.junit.Test;
-import tnguyen.BingNews.controller.RssToJsonConverter;
-import tnguyen.BingNews.controller.parseData.ParseNewsData;
+import tnguyen.BingNews.controller.RSSReader;
 import tnguyen.BingNews.model.BingNewsConfig;
 import tnguyen.BingNews.model.News;
 import tnguyen.BingNews.model.RSSConfig;
@@ -21,7 +20,7 @@ public class UnitTest {
     public void testReadCategoryFromJSON() throws IOException {
         String jsonPath = "E:\\BBV\\Source code\\BingNewsApplication\\src\\main\\resources\\NewsCategory.json";
 
-        BingNewsConfig bingNewsConfig = ParseNewsData.ReadJSON(jsonPath, BingNewsConfig.class);
+        BingNewsConfig bingNewsConfig = RSSReader.readJSON(jsonPath, BingNewsConfig.class);
 
         assertNotNull(bingNewsConfig);
 
@@ -32,7 +31,7 @@ public class UnitTest {
     public void testReadRSSJson() throws IOException {
         String jsonPath = "E:\\BBV\\Source code\\BingNewsApplication\\src\\main\\resources\\RSSConfig.json";
 
-        RSSConfig rssConfig = ParseNewsData.ReadJSON(jsonPath, RSSConfig.class);
+        RSSConfig rssConfig = RSSReader.readJSON(jsonPath, RSSConfig.class);
 
         assertNotNull(rssConfig);
 
@@ -40,56 +39,13 @@ public class UnitTest {
     }
 
     @Test
-    public void testReadLaoDongRss() throws IOException {
-        String rssUrl = "https://laodong.vn/rss/thoi-su.rss"; // Replace with the actual RSS feed URL
-
-        JSONObject json = RssToJsonConverter.convertLaoDong(rssUrl);
-
-        assertNotNull(json);
-    }
-
-    @Test
-    public void testReadVnExpressRss() throws IOException {
-        String rssUrl = "https://vnexpress.net/rss/thoi-su.rss"; // Replace with the actual RSS feed URL
-
-        JSONObject json = RssToJsonConverter.convertVnExpress(rssUrl);
-
-        assertNotNull(json);
-    }
-
-    @Test
-    public void testReadTienPhongRss() {
-        String rssUrl = "https://tienphong.vn/rss/thoi-su-421.rss"; // Replace with the actual RSS feed URL
-
-        JSONObject json = RssToJsonConverter.convertTienPhong(rssUrl);
-
-        assertNotNull(json);
-    }
-
-    @Test
-    public void testMapNewsToObject() throws IOException {
-        String rssUrl = "https://laodong.vn/rss/thoi-su.rss"; // Replace with the actual RSS feed URL
-
-        JSONObject json = RssToJsonConverter.convertLaoDong(rssUrl);
-
-        List<News> newsList = ParseNewsData.parseNews(json);
-
-        for (News news : newsList) {
-            news.printOutInfo();
-        }
-
-        assertNotNull(newsList);
-        assertTrue(newsList.size() > 0);
-    }
-
-    @Test
-    public void testReadMappingNews() throws IOException {
-        String rssUrl = "https://tienphong.vn/rss/thoi-su-421.rss";
+    public void testReadRSS() throws Exception {
+        String rssUrl = "https://laodong.vn/rss/thoi-su.rss";
         String json = fetchJsonData(rssUrl);
 
         List<News> newsList = extractItemList(json.toString());
 
         assertNotNull(newsList);
+        assertTrue(newsList.size() > 0);
     }
-
 }

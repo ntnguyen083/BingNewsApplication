@@ -1,4 +1,4 @@
-package tnguyen.BingNews.controller.parseData;
+package tnguyen.BingNews.controller;
 
 import java.io.IOException;
 import com.fasterxml.jackson.databind.*;
@@ -7,8 +7,6 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import tnguyen.BingNews.model.News;
 
-import java.util.*;
-import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.time.OffsetTime;
 import java.time.ZoneOffset;

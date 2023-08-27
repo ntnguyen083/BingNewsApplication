@@ -2,30 +2,93 @@
   "listChanelConfig": [
     {
       "channelConfigName": "laodong",
-      "titleXPath": "<title>(.*?)</title>",
-      "descriptionXPath": "<description>(.*?)</description>",
-      "linkXPath": "<link>(.*?)</link>",
-      "imageXPath": "enclosure url=\"(.*?)\"",
-      "pubDateXPath": "<pubDate>(.*?)</pubDate>",
-      "guidXPath": "<guid isPermaLink=\"true\">(.*?)</guid>"
+      "type": "news",
+      "propertiesConfig": [
+        {
+          "propertyName": "title",
+          "Path": "<title>(.*?)</title>"
+        },
+        {
+          "propertyName": "description",
+          "Path": "<description>(.*?)</description>"
+        },
+        {
+          "propertyName": "link",
+          "Path": "<link>(.*?)</link>"
+        },
+        {
+          "propertyName": "image",
+          "Path": "enclosure url=\"(.*?)\""
+        },
+        {
+          "propertyName": "pubDate",
+          "Path": "<pubDate>(.*?)</pubDate>"
+        },
+        {
+          "propertyName": "guid",
+          "Path": "<guid isPermaLink=\"true\">(.*?)</guid>"
+        }
+      ]
     },
     {
       "channelConfigName": "vnexpress",
-      "titleXPath": "<title>(.*?)</title>",
-      "descriptionXPath": "<description>(.*?)</description>",
-      "linkXPath": "<link>(.*?)</link>",
-      "imageXPath": "<img src=\"(.*?)\"",
-      "pubDateXPath": "<pubDate>(.*?)</pubDate>",
-      "guidXPath": "<guid>(.*?)</guid>"
+      "type": "news",
+      "propertiesConfig": [
+        {
+          "propertyName": "title",
+          "Path": "<title>(.*?)</title>"
+        },
+        {
+          "propertyName": "description",
+          "Path": "<description>(.*?)</description>"
+        },
+        {
+          "propertyName": "link",
+          "Path": "<link>(.*?)</link>"
+        },
+        {
+          "propertyName": "image",
+          "Path": "<img src=\"(.*?)\""
+        },
+        {
+          "propertyName": "pubDate",
+          "Path": "<pubDate>(.*?)</pubDate>"
+        },
+        {
+          "propertyName": "guid",
+          "Path": "<guid>(.*?)</guid>"
+        }
+      ]
     },
     {
       "channelConfigName": "tienphong",
-      "titleXPath": "<title>(.*?)</title>",
-      "descriptionXPath": "<description>(.*?)</description>",
-      "linkXPath": "<link>(.*?)</link>",
-      "imageXPath": "<image>(.*?)</image>",
-      "pubDateXPath": "<pubDate>(.*?)</pubDate>",
-      "guidXPath": "<guid>(.*?)</guid>"
+      "type": "news",
+      "propertiesConfig": [
+        {
+          "propertyName": "title",
+          "Path": "<title>(.*?)</title>"
+        },
+        {
+          "propertyName": "description",
+          "Path": "<description>(.*?)</description>"
+        },
+        {
+          "propertyName": "link",
+          "Path": "<link>(.*?)</link>"
+        },
+        {
+          "propertyName": "image",
+          "Path": "<image>(.*?)</image>"
+        },
+        {
+          "propertyName": "pubDate",
+          "Path": "<pubDate>(.*?)</pubDate>"
+        },
+        {
+          "propertyName": "guid",
+          "Path": "<guid>(.*?)</guid>"
+        }
+      ]
     }
   ]
 }

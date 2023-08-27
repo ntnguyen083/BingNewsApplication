@@ -1,15 +1,17 @@
 package tnguyen.BingNews.controller;
 
-import tnguyen.BingNews.controller.parseData.DataFactory;
-import tnguyen.BingNews.controller.parseData.ParseNewsData;
-import tnguyen.BingNews.controller.parseData.factory.NewsFactory;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import tnguyen.BingNews.controller.factory.DataFactory;
+import tnguyen.BingNews.controller.factory.implement.NewsFactory;
 import tnguyen.BingNews.model.ChannelConfig;
 import tnguyen.BingNews.model.News;
 import tnguyen.BingNews.model.RSSConfig;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.Field;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
@@ -19,7 +21,7 @@ import java.util.regex.Pattern;
 
 
 public class RSSReader {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         String rssUrl = "https://laodong.vn/rss/thoi-su.rss";
         String json = fetchJsonData(rssUrl);
 
@@ -29,7 +31,7 @@ public class RSSReader {
         }
     }
 
-    public static <T> List<T> extractItemList(String rssXml) throws IOException {
+    public static <T> List<T> extractItemList(String rssXml) throws Exception {
         List<T> itemList = new ArrayList<>();
 
         String channelLink = getChannelLink(rssXml);
@@ -38,7 +40,7 @@ public class RSSReader {
 
         //Read RSSConfig.json
         String jsonPath = "E:\\BBV\\Source code\\BingNewsApplication\\src\\main\\resources\\RSSConfig.json";
-        RSSConfig rssConfig = ParseNewsData.ReadJSON(jsonPath, RSSConfig.class);
+        RSSConfig rssConfig = readJSON(jsonPath, RSSConfig.class);
 
         ChannelConfig channelConfig = new ChannelConfig();
 
@@ -104,26 +106,46 @@ public class RSSReader {
         return hostParts[0];
     }
 
-    public static <T> List<T> parseData(String rssXml, ChannelConfig channelConfig, DataFactory<T> factory) {
+    public static <T> List<T> parseData(String rssXml, ChannelConfig channelConfig, DataFactory<T> factory) throws Exception{
         List<T> list = new ArrayList<>();
         Pattern itemPattern = Pattern.compile("<item>(.*?)</item>", Pattern.DOTALL);
         Matcher itemMatcher = itemPattern.matcher(rssXml);
-
+        String type = channelConfig.getType();
         while (itemMatcher.find()) {
             String itemContent = itemMatcher.group(1);
-
-            String guid = extractValue(itemContent, channelConfig.getGUIDXPath());
-            String title = extractValue(itemContent, channelConfig.getTitleXPath());
-            String description = extractValue(itemContent, channelConfig.getDescriptionXPath());
-            String link = extractValue(itemContent, channelConfig.getLinkXPath());
-            String pubDate = extractValue(itemContent, channelConfig.getPubDateXPath());
-            String image = extractValue(itemContent, channelConfig.getImageXPath());
-
-            T news = factory.createNews(guid, title, description, link, pubDate, image);
-            list.add(news);
+            T obj = null;
+            switch (type) {
+                case "news":
+                    obj = factory.createNews();
+                    break;
+                default:
+                    break;
+            }
+            // Set property value using reflection
+            for (var item : channelConfig.getPropertiesConfig()) {
+                setPropertyValue(obj, item.getPropertyName(), extractValue(itemContent, item.getPath()));
+            }
+            list.add(obj);
         }
 
         return list;
+    }
+
+    public static void setPropertyValue(Object obj, String fieldName, Object value) throws Exception {
+        Field field = obj.getClass().getDeclaredField(fieldName);
+        field.setAccessible(true);
+        field.set(obj, value);
+    }
+
+    public static Object getPropertyValue(Object obj, String fieldName) throws Exception {
+        Field field = obj.getClass().getDeclaredField(fieldName);
+        field.setAccessible(true);
+        return field.get(obj);
+    }
+
+    public static <T> T readJSON(String jsonPath, Class<T> classConfig) throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        return objectMapper.readValue(new File(jsonPath), classConfig);
     }
 
 
