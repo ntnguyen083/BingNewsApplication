@@ -68,6 +68,14 @@
             <version>1.14.3</version> <!-- Phiên bản có thể thay đổi -->
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/javax.json/javax.json-api -->
+        <dependency>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>

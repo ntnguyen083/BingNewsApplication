@@ -1,6 +1,5 @@
 package tnguyen.BingNews.repository.implement;
 
-import tnguyen.BingNews.model.AdArticle;
 import tnguyen.BingNews.model.News;
 import tnguyen.BingNews.repository.NewsRepository;
 import tnguyen.BingNews.util.ConnectionManager;
@@ -15,6 +14,8 @@ import java.util.List;
 public class JDBCNewsRepository implements NewsRepository {
     private static final String SELECT_ALL_NEWS = "SELECT * FROM News";
     private static final String INSERT_NEWS = "INSERT INTO News (guid, title, description, link, pubDate, image) VALUES (?, ?, ?, ?, ?, ?)";
+    private static final String SELECT_GUID = "SELECT COUNT(*) FROM News WHERE guid = ?";
+
     @Override
     public List<News> getAllNews() {
         List<News> newsList = new ArrayList<>();
@@ -56,7 +57,9 @@ public class JDBCNewsRepository implements NewsRepository {
             preparedStatement.setString(5, news.getPubDate());
             preparedStatement.setString(6, news.getImage());
 
-            preparedStatement.executeUpdate();
+            if (!checkNewsExist(news.getGUID())) {
+                preparedStatement.executeUpdate();
+            }
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -71,5 +74,21 @@ public class JDBCNewsRepository implements NewsRepository {
     @Override
     public void deleteNews(String newsId) {
 
+    }
+
+    @Override
+    public boolean checkNewsExist(String guid) throws SQLException {
+        try (Connection connection = ConnectionManager.getConnection();
+             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_GUID)) {
+
+            // Set the parameter for the prepared statement
+            preparedStatement.setString(1, guid);
+
+            // Execute the query
+            try (ResultSet resultSet = preparedStatement.executeQuery()) {
+                resultSet.next();
+                return resultSet.getInt(1) > 0;
+            }
+        }
     }
 }

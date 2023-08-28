@@ -7,15 +7,18 @@ import java.util.UUID;
 
 public class WeatherInfo {
     private String ID;
-    private String placeID;
+    private String place;
     private List<HourTemperature> listHourTemperature;
-    private Date date;
+    private String date;
 
-    public WeatherInfo(String placeID, Date date) {
+    public WeatherInfo() {
+    }
+
+    public WeatherInfo(String place, String date, List<HourTemperature> listHourTemperature) {
         this.ID = UUID.randomUUID().toString();
-        this.placeID = placeID;
+        this.place = place;
         this.date = date;
-        this.listHourTemperature = new ArrayList<>();
+        this.listHourTemperature = listHourTemperature;
     }
 
     public String getID() {
@@ -23,14 +26,22 @@ public class WeatherInfo {
     }
 
     public String getPlaceID() {
-        return placeID;
+        return place;
     }
 
     public List<HourTemperature> getListHourTemperature() {
         return listHourTemperature;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
+    }
+
+    public void printInfo() {
+        System.out.println("Place: " + place);
+        System.out.println("Date: " + date);
+        for (HourTemperature hourTemperature : listHourTemperature) {
+            hourTemperature.printInfo();
+        }
     }
 }

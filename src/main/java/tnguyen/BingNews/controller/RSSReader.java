@@ -23,16 +23,15 @@ import java.util.regex.Pattern;
 public class RSSReader {
     public static void main(String[] args) throws Exception {
         String rssUrl = "https://laodong.vn/rss/thoi-su.rss";
-        String json = fetchJsonData(rssUrl);
-
-        List<News> newsList = extractItemList(json.toString());
+        String fetchRSS = fetchRSS(rssUrl);
+        List<News> newsList = mapItemList(fetchRSS.toString());
         for (News news : newsList) {
             news.printOutInfo();
         }
     }
 
-    public static <T> List<T> extractItemList(String rssXml) throws Exception {
-        List<T> itemList = new ArrayList<>();
+    public static <T> List<T> mapItemList(String rssXml) throws Exception {
+        List<T> itemList;
 
         String channelLink = getChannelLink(rssXml);
 
@@ -65,7 +64,7 @@ public class RSSReader {
         return "";
     }
 
-    public static String fetchJsonData(String urlString) throws IOException {
+    public static String fetchRSS(String urlString) throws IOException {
         URL url = new URL(urlString);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
         connection.setRequestMethod("GET");
@@ -106,7 +105,7 @@ public class RSSReader {
         return hostParts[0];
     }
 
-    public static <T> List<T> parseData(String rssXml, ChannelConfig channelConfig, DataFactory<T> factory) throws Exception{
+    public static <T> List<T> parseData(String rssXml, ChannelConfig channelConfig, DataFactory<T> factory) throws Exception {
         List<T> list = new ArrayList<>();
         Pattern itemPattern = Pattern.compile("<item>(.*?)</item>", Pattern.DOTALL);
         Matcher itemMatcher = itemPattern.matcher(rssXml);
@@ -147,6 +146,4 @@ public class RSSReader {
         ObjectMapper objectMapper = new ObjectMapper();
         return objectMapper.readValue(new File(jsonPath), classConfig);
     }
-
-
 }
